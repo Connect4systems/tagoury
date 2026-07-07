@@ -141,6 +141,7 @@ def sync_product(
 	item_group = choose_item_group(product, categories, group_names)
 	description = build_item_description(product)
 	image_url = (product.get("images") or [{}])[0].get("src") or ""
+	image_file_url = ""
 
 	doc = {
 		"doctype": "Item",
