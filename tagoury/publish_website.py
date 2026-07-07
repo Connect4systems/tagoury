@@ -114,7 +114,7 @@ def ensure_custom_fields() -> int:
 			"dt": "Item",
 			"fieldname": "tagoury_source_url",
 			"label": "Tagoury Source URL",
-			"fieldtype": "Data",
+			"fieldtype": "Small Text",
 			"insert_after": "tagoury_on_sale",
 		},
 		{
@@ -143,9 +143,16 @@ def ensure_custom_fields() -> int:
 	for field in fields:
 		name = f"{field['dt']}-{field['fieldname']}"
 		if frappe.db.exists("Custom Field", name):
+			doc = frappe.get_doc("Custom Field", name)
+			needs_save = False
+			for key, value in field.items():
+				if doc.get(key) != value:
+					doc.set(key, value)
+					needs_save = True
+			if needs_save:
+				doc.save(ignore_permissions=True)
 			continue
-		doc = frappe.get_doc({"doctype": "Custom Field", **field})
-		doc.insert(ignore_permissions=True)
+		frappe.get_doc({"doctype": "Custom Field", **field}).insert(ignore_permissions=True)
 		created += 1
 	frappe.clear_cache(doctype="Item")
 	frappe.clear_cache(doctype="Website Item")
@@ -235,7 +242,7 @@ def update_item_website_fields(
 
 	for field, value in values.items():
 		if field in fields:
-			item.set(field, value)
+			item.set(field, fit_field_value("Item", field, value))
 	item.save(ignore_permissions=True)
 
 
@@ -655,6 +662,15 @@ def format_price(value: float | None, currency: str) -> str:
 
 def meta_fields(doctype: str) -> set[str]:
 	return {field.fieldname for field in frappe.get_meta(doctype).fields}
+
+
+def fit_field_value(doctype: str, fieldname: str, value: Any) -> Any:
+	if not isinstance(value, str):
+		return value
+	field = frappe.get_meta(doctype).get_field(fieldname)
+	if field and field.fieldtype in {"Data", "Link", "Dynamic Link"} and field.length:
+		return value[: int(field.length)]
+	return value
 
 
 def get_table_field(doctype: str, fieldnames: list[str], label: str | None = None) -> Any | None:
