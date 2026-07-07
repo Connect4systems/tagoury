@@ -1,0 +1,1650 @@
+{
+  "fetched_at": "2026-07-07T09:55:26Z",
+  "categories": [
+    {
+      "id": 92,
+      "name": "Accessories",
+      "slug": "accessories",
+      "description": "",
+      "parent": 18,
+      "count": 548,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/accessories/"
+    },
+    {
+      "id": 102,
+      "name": "Accessories",
+      "slug": "accessories-outdoor",
+      "description": "",
+      "parent": 45,
+      "count": 79,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/outdoor/accessories-outdoor/"
+    },
+    {
+      "id": 95,
+      "name": "Applique",
+      "slug": "applique",
+      "description": "",
+      "parent": 90,
+      "count": 7,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/lighting/applique/"
+    },
+    {
+      "id": 261,
+      "name": "Armchairs",
+      "slug": "armchairs",
+      "description": "",
+      "parent": 0,
+      "count": 10,
+      "image": {
+        "id": 6852,
+        "src": "https://tagouryshouse.com/wp-content/uploads/2023/04/wd-furniture-category-armchairs.jpg",
+        "thumbnail": "https://tagouryshouse.com/wp-content/uploads/2023/04/wd-furniture-category-armchairs.jpg",
+        "srcset": "https://tagouryshouse.com/wp-content/uploads/2023/04/wd-furniture-category-armchairs.jpg 495w, https://tagouryshouse.com/wp-content/uploads/2023/04/wd-furniture-category-armchairs-150x150.jpg 150w",
+        "sizes": "(max-width: 495px) 100vw, 495px",
+        "thumbnail_srcset": "https://tagouryshouse.com/wp-content/uploads/2023/04/wd-furniture-category-armchairs.jpg 495w, https://tagouryshouse.com/wp-content/uploads/2023/04/wd-furniture-category-armchairs-150x150.jpg 150w",
+        "thumbnail_sizes": "(max-width: 495px) 100vw, 495px",
+        "name": "wd-furniture-category-armchairs",
+        "alt": ""
+      },
+      "review_count": 1,
+      "permalink": "https://tagouryshouse.com/product-category/armchairs/"
+    },
+    {
+      "id": 131,
+      "name": "Artificial Plants",
+      "slug": "artificial-plants-accessories-outdoor",
+      "description": "",
+      "parent": 102,
+      "count": 34,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/outdoor/accessories-outdoor/artificial-plants-accessories-outdoor/"
+    },
+    {
+      "id": 129,
+      "name": "Artificial Plants",
+      "slug": "artificial-plants",
+      "description": "",
+      "parent": 92,
+      "count": 41,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/accessories/artificial-plants/"
+    },
+    {
+      "id": 110,
+      "name": "Bar Chair",
+      "slug": "bar-chair",
+      "description": "",
+      "parent": 62,
+      "count": 4,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/chairs/bar-chair/"
+    },
+    {
+      "id": 88,
+      "name": "Bars",
+      "slug": "bars",
+      "description": "",
+      "parent": 18,
+      "count": 25,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/bars/"
+    },
+    {
+      "id": 121,
+      "name": "Bayou",
+      "slug": "bayou",
+      "description": "",
+      "parent": 114,
+      "count": 8,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/chest-of-drawers/bayou/"
+    },
+    {
+      "id": 172,
+      "name": "Beds",
+      "slug": "beds",
+      "description": "",
+      "parent": 18,
+      "count": 21,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/beds/"
+    },
+    {
+      "id": 64,
+      "name": "Bergere",
+      "slug": "bergere",
+      "description": "",
+      "parent": 62,
+      "count": 149,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/chairs/bergere/"
+    },
+    {
+      "id": 23,
+      "name": "Best Selling",
+      "slug": "best-selling",
+      "description": "",
+      "parent": 0,
+      "count": 447,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/best-selling/"
+    },
+    {
+      "id": 112,
+      "name": "Boxes",
+      "slug": "boxes",
+      "description": "",
+      "parent": 18,
+      "count": 78,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/boxes/"
+    },
+    {
+      "id": 142,
+      "name": "Candles and Lanterns",
+      "slug": "candles-and-lanterns-outdoor",
+      "description": "",
+      "parent": 45,
+      "count": 29,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/outdoor/candles-and-lanterns-outdoor/"
+    },
+    {
+      "id": 103,
+      "name": "Candles and Lanterns",
+      "slug": "candles-and-lanterns",
+      "description": "",
+      "parent": 18,
+      "count": 34,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/candles-and-lanterns/"
+    },
+    {
+      "id": 62,
+      "name": "Chairs",
+      "slug": "chairs",
+      "description": "",
+      "parent": 18,
+      "count": 253,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/chairs/"
+    },
+    {
+      "id": 105,
+      "name": "Chairs",
+      "slug": "chairs-outdoor",
+      "description": "",
+      "parent": 45,
+      "count": 67,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/outdoor/chairs-outdoor/"
+    },
+    {
+      "id": 91,
+      "name": "Chandlers and Pendant Lights",
+      "slug": "chandlers-and-pendant-lights",
+      "description": "",
+      "parent": 90,
+      "count": 65,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/lighting/chandlers-and-pendant-lights/"
+    },
+    {
+      "id": 189,
+      "name": "Chest of Drawers",
+      "slug": "chest-of-drawers-outdoor",
+      "description": "",
+      "parent": 45,
+      "count": 5,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/outdoor/chest-of-drawers-outdoor/"
+    },
+    {
+      "id": 114,
+      "name": "Chest of drawers",
+      "slug": "chest-of-drawers",
+      "description": "",
+      "parent": 18,
+      "count": 56,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/chest-of-drawers/"
+    },
+    {
+      "id": 126,
+      "name": "Clocks",
+      "slug": "clocks",
+      "description": "",
+      "parent": 92,
+      "count": 11,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/accessories/clocks/"
+    },
+    {
+      "id": 78,
+      "name": "Coffee Tables",
+      "slug": "coffee-tables",
+      "description": "",
+      "parent": 75,
+      "count": 94,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/tables-indoor/coffee-tables/"
+    },
+    {
+      "id": 79,
+      "name": "Consoles",
+      "slug": "consoles",
+      "description": "",
+      "parent": 18,
+      "count": 53,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/consoles/"
+    },
+    {
+      "id": 24,
+      "name": "Cottage",
+      "slug": "cottage",
+      "description": "",
+      "parent": 0,
+      "count": 341,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/cottage/"
+    },
+    {
+      "id": 136,
+      "name": "Decoreative Storage",
+      "slug": "decoreative-storage",
+      "description": "",
+      "parent": 92,
+      "count": 31,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/accessories/decoreative-storage/"
+    },
+    {
+      "id": 63,
+      "name": "Dinning",
+      "slug": "dinning",
+      "description": "",
+      "parent": 62,
+      "count": 96,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/chairs/dinning/"
+    },
+    {
+      "id": 84,
+      "name": "Dinning Tables",
+      "slug": "dinning-tables",
+      "description": "",
+      "parent": 75,
+      "count": 34,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/tables-indoor/dinning-tables/"
+    },
+    {
+      "id": 177,
+      "name": "Fans",
+      "slug": "fans",
+      "description": "",
+      "parent": 18,
+      "count": 4,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/fans/"
+    },
+    {
+      "id": 178,
+      "name": "Fans",
+      "slug": "fans-outdoor",
+      "description": "",
+      "parent": 45,
+      "count": 4,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/outdoor/fans-outdoor/"
+    },
+    {
+      "id": 125,
+      "name": "Fire Pit",
+      "slug": "fire-pit-accessories",
+      "description": "",
+      "parent": 92,
+      "count": 1,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/accessories/fire-pit-accessories/"
+    },
+    {
+      "id": 124,
+      "name": "Fire Pit",
+      "slug": "fire-pit",
+      "description": "",
+      "parent": 102,
+      "count": 5,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/outdoor/accessories-outdoor/fire-pit/"
+    },
+    {
+      "id": 127,
+      "name": "Hangers",
+      "slug": "hangers",
+      "description": "",
+      "parent": 92,
+      "count": 30,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/accessories/hangers/"
+    },
+    {
+      "id": 54,
+      "name": "Indian Line",
+      "slug": "indian-line",
+      "description": "",
+      "parent": 0,
+      "count": 80,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indian-line/"
+    },
+    {
+      "id": 18,
+      "name": "Indoor",
+      "slug": "indoor",
+      "description": "",
+      "parent": 0,
+      "count": 1798,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/"
+    },
+    {
+      "id": 128,
+      "name": "Jewelry Boxes",
+      "slug": "jewelry-boxes",
+      "description": "",
+      "parent": 92,
+      "count": 17,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/accessories/jewelry-boxes/"
+    },
+    {
+      "id": 140,
+      "name": "Kitchen and Bath",
+      "slug": "kitchen-and-bath",
+      "description": "",
+      "parent": 92,
+      "count": 41,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/accessories/kitchen-and-bath/"
+    },
+    {
+      "id": 120,
+      "name": "Leather",
+      "slug": "leather",
+      "description": "",
+      "parent": 19,
+      "count": 17,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/rugs/leather/"
+    },
+    {
+      "id": 240,
+      "name": "Letters",
+      "slug": "letters",
+      "description": "",
+      "parent": 90,
+      "count": 20,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/lighting/letters/"
+    },
+    {
+      "id": 97,
+      "name": "Lighting",
+      "slug": "lighting-outdoor",
+      "description": "",
+      "parent": 45,
+      "count": 61,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/outdoor/lighting-outdoor/"
+    },
+    {
+      "id": 94,
+      "name": "Lighting",
+      "slug": "lighting-2",
+      "description": "",
+      "parent": 0,
+      "count": 33,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/lighting-2/"
+    },
+    {
+      "id": 90,
+      "name": "Lighting",
+      "slug": "lighting",
+      "description": "",
+      "parent": 18,
+      "count": 191,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/lighting/"
+    },
+    {
+      "id": 25,
+      "name": "Limited Editions",
+      "slug": "limited-editions",
+      "description": "",
+      "parent": 0,
+      "count": 333,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/limited-editions/"
+    },
+    {
+      "id": 146,
+      "name": "Mirrors",
+      "slug": "mirrors",
+      "description": "",
+      "parent": 92,
+      "count": 64,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/accessories/mirrors/"
+    },
+    {
+      "id": 220,
+      "name": "Miscellaneous",
+      "slug": "miscellaneous",
+      "description": "",
+      "parent": 0,
+      "count": 3,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/miscellaneous/"
+    },
+    {
+      "id": 42,
+      "name": "Modern",
+      "slug": "modern",
+      "description": "",
+      "parent": 19,
+      "count": 31,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/rugs/modern/"
+    },
+    {
+      "id": 51,
+      "name": "Natural Wood",
+      "slug": "natural-wood",
+      "description": "",
+      "parent": 45,
+      "count": 48,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/outdoor/natural-wood/"
+    },
+    {
+      "id": 52,
+      "name": "Natural Wood",
+      "slug": "natural-wood-indoor",
+      "description": "",
+      "parent": 18,
+      "count": 57,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/natural-wood-indoor/"
+    },
+    {
+      "id": 57,
+      "name": "New Collection",
+      "slug": "new-collection",
+      "description": "",
+      "parent": 0,
+      "count": 45,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/new-collection/"
+    },
+    {
+      "id": 44,
+      "name": "Offers",
+      "slug": "offers",
+      "description": "",
+      "parent": 0,
+      "count": 319,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/offers/"
+    },
+    {
+      "id": 108,
+      "name": "Ottomans and stools",
+      "slug": "ottomans-and-stools-outdoor",
+      "description": "",
+      "parent": 45,
+      "count": 9,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/outdoor/ottomans-and-stools-outdoor/"
+    },
+    {
+      "id": 58,
+      "name": "Ottomans and stools",
+      "slug": "ottomans-and-stools",
+      "description": "",
+      "parent": 18,
+      "count": 67,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/ottomans-and-stools/"
+    },
+    {
+      "id": 45,
+      "name": "Outdoor",
+      "slug": "outdoor",
+      "description": "",
+      "parent": 0,
+      "count": 437,
+      "image": null,
+      "review_count": 2,
+      "permalink": "https://tagouryshouse.com/product-category/outdoor/"
+    },
+    {
+      "id": 147,
+      "name": "Paravan",
+      "slug": "paravan",
+      "description": "",
+      "parent": 18,
+      "count": 4,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/paravan/"
+    },
+    {
+      "id": 225,
+      "name": "Parquet",
+      "slug": "parquet",
+      "description": "",
+      "parent": 18,
+      "count": 13,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/parquet/"
+    },
+    {
+      "id": 226,
+      "name": "Parquet",
+      "slug": "parquet-outdoor",
+      "description": "",
+      "parent": 45,
+      "count": 8,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/outdoor/parquet-outdoor/"
+    },
+    {
+      "id": 20,
+      "name": "Persian",
+      "slug": "persian",
+      "description": "",
+      "parent": 19,
+      "count": 32,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/rugs/persian/"
+    },
+    {
+      "id": 137,
+      "name": "Pillows and Textiles",
+      "slug": "pillows-and-textiles",
+      "description": "",
+      "parent": 18,
+      "count": 48,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/pillows-and-textiles/"
+    },
+    {
+      "id": 193,
+      "name": "Pillows and Textiles",
+      "slug": "pillows-and-textiles-outdoor",
+      "description": "",
+      "parent": 45,
+      "count": 17,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/outdoor/pillows-and-textiles-outdoor/"
+    },
+    {
+      "id": 133,
+      "name": "Plants",
+      "slug": "plants",
+      "description": "",
+      "parent": 131,
+      "count": 9,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/outdoor/accessories-outdoor/artificial-plants-accessories-outdoor/plants/"
+    },
+    {
+      "id": 134,
+      "name": "Plants",
+      "slug": "plants-artificial-plants",
+      "description": "",
+      "parent": 129,
+      "count": 10,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/accessories/artificial-plants/plants-artificial-plants/"
+    },
+    {
+      "id": 132,
+      "name": "Pots",
+      "slug": "pots-artificial-plants-accessories-outdoor",
+      "description": "",
+      "parent": 131,
+      "count": 25,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/outdoor/accessories-outdoor/artificial-plants-accessories-outdoor/pots-artificial-plants-accessories-outdoor/"
+    },
+    {
+      "id": 130,
+      "name": "Pots",
+      "slug": "pots",
+      "description": "",
+      "parent": 129,
+      "count": 31,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/accessories/artificial-plants/pots/"
+    },
+    {
+      "id": 19,
+      "name": "Rugs",
+      "slug": "rugs",
+      "description": "",
+      "parent": 18,
+      "count": 125,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/rugs/"
+    },
+    {
+      "id": 195,
+      "name": "Rugs",
+      "slug": "rugs-outdoor",
+      "description": "",
+      "parent": 45,
+      "count": 2,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/outdoor/rugs-outdoor/"
+    },
+    {
+      "id": 106,
+      "name": "Sets",
+      "slug": "sets",
+      "description": "",
+      "parent": 45,
+      "count": 52,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/outdoor/sets/"
+    },
+    {
+      "id": 197,
+      "name": "Shading Solutions",
+      "slug": "shading-solutions",
+      "description": "",
+      "parent": 45,
+      "count": 35,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/outdoor/shading-solutions/"
+    },
+    {
+      "id": 122,
+      "name": "Shelves",
+      "slug": "shelves",
+      "description": "",
+      "parent": 18,
+      "count": 53,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/shelves/"
+    },
+    {
+      "id": 76,
+      "name": "Side Tables",
+      "slug": "side-tables",
+      "description": "",
+      "parent": 75,
+      "count": 137,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/tables-indoor/side-tables/"
+    },
+    {
+      "id": 55,
+      "name": "Sofas",
+      "slug": "sofas",
+      "description": "",
+      "parent": 18,
+      "count": 84,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/sofas/"
+    },
+    {
+      "id": 190,
+      "name": "Sofas",
+      "slug": "sofas-outdoor",
+      "description": "",
+      "parent": 45,
+      "count": 12,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/outdoor/sofas-outdoor/"
+    },
+    {
+      "id": 48,
+      "name": "Sun Beds",
+      "slug": "sun-beds",
+      "description": "",
+      "parent": 45,
+      "count": 21,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/outdoor/sun-beds/"
+    },
+    {
+      "id": 98,
+      "name": "Table and Floor Lamps",
+      "slug": "table-and-floor-lamps-lighting-outdoor",
+      "description": "",
+      "parent": 97,
+      "count": 45,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/outdoor/lighting-outdoor/table-and-floor-lamps-lighting-outdoor/"
+    },
+    {
+      "id": 93,
+      "name": "Table and Floor Lamps",
+      "slug": "table-and-floor-lamps",
+      "description": "",
+      "parent": 90,
+      "count": 97,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/lighting/table-and-floor-lamps/"
+    },
+    {
+      "id": 96,
+      "name": "Table Ware",
+      "slug": "table-ware",
+      "description": "",
+      "parent": 92,
+      "count": 121,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/accessories/table-ware/"
+    },
+    {
+      "id": 46,
+      "name": "Tables",
+      "slug": "tables",
+      "description": "",
+      "parent": 45,
+      "count": 81,
+      "image": null,
+      "review_count": 2,
+      "permalink": "https://tagouryshouse.com/product-category/outdoor/tables/"
+    },
+    {
+      "id": 75,
+      "name": "Tables",
+      "slug": "tables-indoor",
+      "description": "",
+      "parent": 18,
+      "count": 270,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/tables-indoor/"
+    },
+    {
+      "id": 73,
+      "name": "Trolleys",
+      "slug": "trolleys",
+      "description": "",
+      "parent": 18,
+      "count": 9,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/trolleys/"
+    },
+    {
+      "id": 115,
+      "name": "TV Units",
+      "slug": "tv-units",
+      "description": "",
+      "parent": 18,
+      "count": 10,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/tv-units/"
+    },
+    {
+      "id": 83,
+      "name": "Unique Desk",
+      "slug": "unique-desk",
+      "description": "",
+      "parent": 18,
+      "count": 15,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/unique-desk/"
+    },
+    {
+      "id": 138,
+      "name": "Vases",
+      "slug": "vases",
+      "description": "",
+      "parent": 92,
+      "count": 24,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/accessories/vases/"
+    },
+    {
+      "id": 26,
+      "name": "Vintage",
+      "slug": "vintage",
+      "description": "",
+      "parent": 19,
+      "count": 45,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/rugs/vintage/"
+    },
+    {
+      "id": 143,
+      "name": "Wall Art",
+      "slug": "wall-art",
+      "description": "",
+      "parent": 92,
+      "count": 175,
+      "image": null,
+      "review_count": 0,
+      "permalink": "https://tagouryshouse.com/product-category/indoor/accessories/wall-art/"
+    }
+  ],
+  "products": [
+    {
+      "id": 6654,
+      "name": "Solid Natural Oak Vintage Wooden Chiffon",
+      "slug": "solid-natural-oak-vintage-wooden-chiffon",
+      "parent": 0,
+      "type": "simple",
+      "variation": "",
+      "permalink": "https://tagouryshouse.com/product/solid-natural-oak-vintage-wooden-chiffon/",
+      "sku": "T-W084-2",
+      "short_description": "<p>112 CM X 82 CM X 48 CM</p>",
+      "description": "<p>This classically shaped serpentine breakfront</p>\n<p>chest is the perfect balance of elegance and laid-back charm</p>\n<p>The Mc Alister Chest is a perfect fit for relaxed coastal</p>\n<p>shabby chic or farmhouse decor</p>\n<p>It&#8217;s versatile enough to span styles and functions use it in the bedroom living room entryway or hall</p>",
+      "on_sale": false,
+      "prices": {
+        "price": "68655",
+        "regular_price": "68655",
+        "sale_price": "68655",
+        "price_range": null,
+        "currency_code": "EGP",
+        "currency_symbol": "EGP",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": ",",
+        "currency_prefix": "",
+        "currency_suffix": " EGP"
+      },
+      "price_html": "<span class=\"woocommerce-Price-amount amount\">68,655&nbsp;<span class=\"woocommerce-Price-currencySymbol\">EGP</span></span> <small class=\"woocommerce-price-suffix\">incl. Vat</small>",
+      "average_rating": "0",
+      "review_count": 0,
+      "images": [
+        {
+          "id": 7162,
+          "src": "https://tagouryshouse.com/wp-content/uploads/2023/04/Solid-Natural-Oak-Vintage-Wooden-Chiffon.png",
+          "thumbnail": "https://tagouryshouse.com/wp-content/uploads/2023/04/Solid-Natural-Oak-Vintage-Wooden-Chiffon-600x600.png",
+          "srcset": "https://tagouryshouse.com/wp-content/uploads/2023/04/Solid-Natural-Oak-Vintage-Wooden-Chiffon.png 1024w, https://tagouryshouse.com/wp-content/uploads/2023/04/Solid-Natural-Oak-Vintage-Wooden-Chiffon-150x138.png 150w, https://tagouryshouse.com/wp-content/uploads/2023/04/Solid-Natural-Oak-Vintage-Wooden-Chiffon-300x277.png 300w, https://tagouryshouse.com/wp-content/uploads/2023/04/Solid-Natural-Oak-Vintage-Wooden-Chiffon-768x708.png 768w",
+          "sizes": "(max-width: 1024px) 100vw, 1024px",
+          "thumbnail_srcset": "https://tagouryshouse.com/wp-content/uploads/2023/04/Solid-Natural-Oak-Vintage-Wooden-Chiffon-600x600.png 600w, https://tagouryshouse.com/wp-content/uploads/2023/04/Solid-Natural-Oak-Vintage-Wooden-Chiffon-150x150.png 150w",
+          "thumbnail_sizes": "(max-width: 600px) 100vw, 600px",
+          "name": "Solid Natural Oak Vintage Wooden Chiffon",
+          "alt": ""
+        }
+      ],
+      "categories": [
+        {
+          "id": 114,
+          "name": "Chest of drawers",
+          "slug": "chest-of-drawers",
+          "link": "https://tagouryshouse.com/product-category/indoor/chest-of-drawers/"
+        },
+        {
+          "id": 18,
+          "name": "Indoor",
+          "slug": "indoor",
+          "link": "https://tagouryshouse.com/product-category/indoor/"
+        }
+      ],
+      "tags": [
+        {
+          "id": 99,
+          "name": "Home of luxurious imported furniture in egypt",
+          "slug": "home-of-luxurious-imported-furniture-in-egypt",
+          "link": "https://tagouryshouse.com/product-tag/home-of-luxurious-imported-furniture-in-egypt/"
+        }
+      ],
+      "brands": [],
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Color",
+          "taxonomy": "pa_color",
+          "has_variations": false,
+          "terms": [
+            {
+              "id": 228,
+              "name": "light brown. White",
+              "slug": "light-brown-white"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Material",
+          "taxonomy": "pa_material",
+          "has_variations": false,
+          "terms": [
+            {
+              "id": 34,
+              "name": "Wood",
+              "slug": "wood"
+            }
+          ]
+        }
+      ],
+      "variations": [],
+      "grouped_products": [],
+      "has_options": false,
+      "is_purchasable": true,
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "low_stock_remaining": 2,
+      "stock_availability": {
+        "text": "2 in stock",
+        "class": "in-stock wd-style-default"
+      },
+      "sold_individually": false,
+      "weight": "",
+      "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+      },
+      "formatted_weight": "N/A",
+      "formatted_dimensions": "N/A",
+      "add_to_cart": {
+        "text": "OWN THIS PIECE",
+        "description": "Add to cart: &ldquo;Solid Natural Oak Vintage Wooden Chiffon&rdquo;",
+        "url": "/wp-json/wc/store/v1/products?per_page=100&#038;page=1&#038;add-to-cart=6654",
+        "single_text": "OWN THIS PIECE",
+        "minimum": 1,
+        "maximum": 2,
+        "multiple_of": 1
+      },
+      "is_password_protected": false,
+      "extensions": {},
+      "_links": {
+        "self": [
+          {
+            "href": "https://tagouryshouse.com/wp-json/wc/store/v1/products/6654",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://tagouryshouse.com/wp-json/wc/store/v1/products"
+          }
+        ],
+        "related": [
+          {
+            "embeddable": true,
+            "href": "https://tagouryshouse.com/wp-json/wc/store/v1/products?related=6654&per_page=10"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6653,
+      "name": "WPC FLOORING",
+      "slug": "30906",
+      "parent": 0,
+      "type": "simple",
+      "variation": "",
+      "permalink": "https://tagouryshouse.com/product/30906/",
+      "sku": "WEL16030",
+      "short_description": "",
+      "description": "<p>Everlasting Composite Cladding uses co extrusion technology with a fully covered layer of polyethylene This layer gives the wall cladding high stain and UV resistance water and mold resistance and no color fading with natural wood textures This cladding is easy to maintain and comes with a 20 year warranty</p>",
+      "on_sale": false,
+      "prices": {
+        "price": "4782",
+        "regular_price": "4782",
+        "sale_price": "4782",
+        "price_range": null,
+        "currency_code": "EGP",
+        "currency_symbol": "EGP",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": ",",
+        "currency_prefix": "",
+        "currency_suffix": " EGP"
+      },
+      "price_html": "<span class=\"woocommerce-Price-amount amount\">4,782&nbsp;<span class=\"woocommerce-Price-currencySymbol\">EGP</span></span> <small class=\"woocommerce-price-suffix\">incl. Vat</small>",
+      "average_rating": "0",
+      "review_count": 0,
+      "images": [
+        {
+          "id": 6652,
+          "src": "https://tagouryshouse.com/wp-content/uploads/2026/05/IMG-20250620-WA0070-scaled-1.jpg",
+          "thumbnail": "https://tagouryshouse.com/wp-content/uploads/2026/05/IMG-20250620-WA0070-scaled-1-600x600.jpg",
+          "srcset": "https://tagouryshouse.com/wp-content/uploads/2026/05/IMG-20250620-WA0070-scaled-1.jpg 2560w, https://tagouryshouse.com/wp-content/uploads/2026/05/IMG-20250620-WA0070-scaled-1-150x106.jpg 150w, https://tagouryshouse.com/wp-content/uploads/2026/05/IMG-20250620-WA0070-scaled-1-1200x848.jpg 1200w, https://tagouryshouse.com/wp-content/uploads/2026/05/IMG-20250620-WA0070-scaled-1-300x212.jpg 300w, https://tagouryshouse.com/wp-content/uploads/2026/05/IMG-20250620-WA0070-scaled-1-1024x724.jpg 1024w, https://tagouryshouse.com/wp-content/uploads/2026/05/IMG-20250620-WA0070-scaled-1-768x543.jpg 768w, https://tagouryshouse.com/wp-content/uploads/2026/05/IMG-20250620-WA0070-scaled-1-1536x1086.jpg 1536w, https://tagouryshouse.com/wp-content/uploads/2026/05/IMG-20250620-WA0070-scaled-1-2048x1448.jpg 2048w",
+          "sizes": "(max-width: 2560px) 100vw, 2560px",
+          "thumbnail_srcset": "https://tagouryshouse.com/wp-content/uploads/2026/05/IMG-20250620-WA0070-scaled-1-600x600.jpg 600w, https://tagouryshouse.com/wp-content/uploads/2026/05/IMG-20250620-WA0070-scaled-1-150x150.jpg 150w",
+          "thumbnail_sizes": "(max-width: 600px) 100vw, 600px",
+          "name": "IMG-20250620-WA0070-scaled",
+          "alt": ""
+        }
+      ],
+      "categories": [
+        {
+          "id": 23,
+          "name": "Best Selling",
+          "slug": "best-selling",
+          "link": "https://tagouryshouse.com/product-category/best-selling/"
+        },
+        {
+          "id": 25,
+          "name": "Limited Editions",
+          "slug": "limited-editions",
+          "link": "https://tagouryshouse.com/product-category/limited-editions/"
+        },
+        {
+          "id": 57,
+          "name": "New Collection",
+          "slug": "new-collection",
+          "link": "https://tagouryshouse.com/product-category/new-collection/"
+        },
+        {
+          "id": 45,
+          "name": "Outdoor",
+          "slug": "outdoor",
+          "link": "https://tagouryshouse.com/product-category/outdoor/"
+        },
+        {
+          "id": 226,
+          "name": "Parquet",
+          "slug": "parquet-outdoor",
+          "link": "https://tagouryshouse.com/product-category/outdoor/parquet-outdoor/"
+        }
+      ],
+      "tags": [],
+      "brands": [],
+      "attributes": [],
+      "variations": [],
+      "grouped_products": [],
+      "has_options": false,
+      "is_purchasable": true,
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "low_stock_remaining": null,
+      "stock_availability": {
+        "text": "226 in stock",
+        "class": "in-stock wd-style-default"
+      },
+      "sold_individually": false,
+      "weight": "",
+      "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+      },
+      "formatted_weight": "N/A",
+      "formatted_dimensions": "N/A",
+      "add_to_cart": {
+        "text": "OWN THIS PIECE",
+        "description": "Add to cart: &ldquo;WPC FLOORING&rdquo;",
+        "url": "/wp-json/wc/store/v1/products?per_page=100&#038;page=1&#038;add-to-cart=6653",
+        "single_text": "OWN THIS PIECE",
+        "minimum": 1,
+        "maximum": 226,
+        "multiple_of": 1
+      },
+      "is_password_protected": false,
+      "extensions": {},
+      "_links": {
+        "self": [
+          {
+            "href": "https://tagouryshouse.com/wp-json/wc/store/v1/products/6653",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://tagouryshouse.com/wp-json/wc/store/v1/products"
+          }
+        ],
+        "related": [
+          {
+            "embeddable": true,
+            "href": "https://tagouryshouse.com/wp-json/wc/store/v1/products?related=6653&per_page=10"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6646,
+      "name": "Natural Wood Beads And Painted Crystals Chandelier",
+      "slug": "wood-beads-painted-crystals-chandelier",
+      "parent": 0,
+      "type": "simple",
+      "variation": "",
+      "permalink": "https://tagouryshouse.com/product/wood-beads-painted-crystals-chandelier/",
+      "sku": "DA 1898",
+      "short_description": "",
+      "description": "<p>60 Watt Bulb Maximum Hard Wire On</p>\n<p>CHIAN 121 CM 100 CM X 59 CM</p>",
+      "on_sale": false,
+      "prices": {
+        "price": "53460",
+        "regular_price": "53460",
+        "sale_price": "53460",
+        "price_range": null,
+        "currency_code": "EGP",
+        "currency_symbol": "EGP",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": ",",
+        "currency_prefix": "",
+        "currency_suffix": " EGP"
+      },
+      "price_html": "<span class=\"woocommerce-Price-amount amount\">53,460&nbsp;<span class=\"woocommerce-Price-currencySymbol\">EGP</span></span> <small class=\"woocommerce-price-suffix\">incl. Vat</small>",
+      "average_rating": "0",
+      "review_count": 0,
+      "images": [
+        {
+          "id": 7188,
+          "src": "https://tagouryshouse.com/wp-content/uploads/2025/06/Natural-Wood-Beads-And-Painted-Crystals.png",
+          "thumbnail": "https://tagouryshouse.com/wp-content/uploads/2025/06/Natural-Wood-Beads-And-Painted-Crystals-600x600.png",
+          "srcset": "https://tagouryshouse.com/wp-content/uploads/2025/06/Natural-Wood-Beads-And-Painted-Crystals.png 1024w, https://tagouryshouse.com/wp-content/uploads/2025/06/Natural-Wood-Beads-And-Painted-Crystals-600x600.png 600w, https://tagouryshouse.com/wp-content/uploads/2025/06/Natural-Wood-Beads-And-Painted-Crystals-150x150.png 150w, https://tagouryshouse.com/wp-content/uploads/2025/06/Natural-Wood-Beads-And-Painted-Crystals-300x300.png 300w, https://tagouryshouse.com/wp-content/uploads/2025/06/Natural-Wood-Beads-And-Painted-Crystals-768x768.png 768w",
+          "sizes": "(max-width: 1024px) 100vw, 1024px",
+          "thumbnail_srcset": "https://tagouryshouse.com/wp-content/uploads/2025/06/Natural-Wood-Beads-And-Painted-Crystals-600x600.png 600w, https://tagouryshouse.com/wp-content/uploads/2025/06/Natural-Wood-Beads-And-Painted-Crystals-150x150.png 150w, https://tagouryshouse.com/wp-content/uploads/2025/06/Natural-Wood-Beads-And-Painted-Crystals-300x300.png 300w, https://tagouryshouse.com/wp-content/uploads/2025/06/Natural-Wood-Beads-And-Painted-Crystals-768x768.png 768w, https://tagouryshouse.com/wp-content/uploads/2025/06/Natural-Wood-Beads-And-Painted-Crystals.png 1024w",
+          "thumbnail_sizes": "(max-width: 600px) 100vw, 600px",
+          "name": "Natural Wood Beads And Painted Crystals",
+          "alt": ""
+        }
+      ],
+      "categories": [
+        {
+          "id": 23,
+          "name": "Best Selling",
+          "slug": "best-selling",
+          "link": "https://tagouryshouse.com/product-category/best-selling/"
+        },
+        {
+          "id": 91,
+          "name": "Chandlers and Pendant Lights",
+          "slug": "chandlers-and-pendant-lights",
+          "link": "https://tagouryshouse.com/product-category/indoor/lighting/chandlers-and-pendant-lights/"
+        },
+        {
+          "id": 24,
+          "name": "Cottage",
+          "slug": "cottage",
+          "link": "https://tagouryshouse.com/product-category/cottage/"
+        },
+        {
+          "id": 54,
+          "name": "Indian Line",
+          "slug": "indian-line",
+          "link": "https://tagouryshouse.com/product-category/indian-line/"
+        },
+        {
+          "id": 18,
+          "name": "Indoor",
+          "slug": "indoor",
+          "link": "https://tagouryshouse.com/product-category/indoor/"
+        },
+        {
+          "id": 94,
+          "name": "Lighting",
+          "slug": "lighting-2",
+          "link": "https://tagouryshouse.com/product-category/lighting-2/"
+        },
+        {
+          "id": 90,
+          "name": "Lighting",
+          "slug": "lighting",
+          "link": "https://tagouryshouse.com/product-category/indoor/lighting/"
+        },
+        {
+          "id": 25,
+          "name": "Limited Editions",
+          "slug": "limited-editions",
+          "link": "https://tagouryshouse.com/product-category/limited-editions/"
+        },
+        {
+          "id": 57,
+          "name": "New Collection",
+          "slug": "new-collection",
+          "link": "https://tagouryshouse.com/product-category/new-collection/"
+        },
+        {
+          "id": 44,
+          "name": "Offers",
+          "slug": "offers",
+          "link": "https://tagouryshouse.com/product-category/offers/"
+        }
+      ],
+      "tags": [],
+      "brands": [],
+      "attributes": [],
+      "variations": [],
+      "grouped_products": [],
+      "has_options": false,
+      "is_purchasable": true,
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "low_stock_remaining": 1,
+      "stock_availability": {
+        "text": "1 in stock",
+        "class": "in-stock wd-style-default"
+      },
+      "sold_individually": false,
+      "weight": "",
+      "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+      },
+      "formatted_weight": "N/A",
+      "formatted_dimensions": "N/A",
+      "add_to_cart": {
+        "text": "OWN THIS PIECE",
+        "description": "Add to cart: &ldquo;Natural Wood Beads And Painted Crystals Chandelier&rdquo;",
+        "url": "/wp-json/wc/store/v1/products?per_page=100&#038;page=1&#038;add-to-cart=6646",
+        "single_text": "OWN THIS PIECE",
+        "minimum": 1,
+        "maximum": 1,
+        "multiple_of": 1
+      },
+      "is_password_protected": false,
+      "extensions": {},
+      "_links": {
+        "self": [
+          {
+            "href": "https://tagouryshouse.com/wp-json/wc/store/v1/products/6646",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://tagouryshouse.com/wp-json/wc/store/v1/products"
+          }
+        ],
+        "related": [
+          {
+            "embeddable": true,
+            "href": "https://tagouryshouse.com/wp-json/wc/store/v1/products?related=6646&per_page=10"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5876,
+      "name": "Letter E Led Lights",
+      "slug": "letter-e-led",
+      "parent": 0,
+      "type": "simple",
+      "variation": "",
+      "permalink": "https://tagouryshouse.com/product/letter-e-led/",
+      "sku": "T-CH0607-E",
+      "short_description": "<p>24 CM X 24 CM X 5 CM</p>",
+      "description": "<p>E shaped wooden frame filled with LED lights</p>",
+      "on_sale": false,
+      "prices": {
+        "price": "1765",
+        "regular_price": "1765",
+        "sale_price": "1765",
+        "price_range": null,
+        "currency_code": "EGP",
+        "currency_symbol": "EGP",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": ",",
+        "currency_prefix": "",
+        "currency_suffix": " EGP"
+      },
+      "price_html": "<span class=\"woocommerce-Price-amount amount\">1,765&nbsp;<span class=\"woocommerce-Price-currencySymbol\">EGP</span></span> <small class=\"woocommerce-price-suffix\">incl. Vat</small>",
+      "average_rating": "0",
+      "review_count": 0,
+      "images": [
+        {
+          "id": 5877,
+          "src": "https://tagouryshouse.com/wp-content/uploads/2026/05/T-CH0607-E-1.jpg",
+          "thumbnail": "https://tagouryshouse.com/wp-content/uploads/2026/05/T-CH0607-E-1.jpg",
+          "srcset": "",
+          "sizes": "(max-width: 88px) 100vw, 88px",
+          "thumbnail_srcset": "",
+          "thumbnail_sizes": "(max-width: 88px) 100vw, 88px",
+          "name": "T-CH0607-E-1",
+          "alt": ""
+        }
+      ],
+      "categories": [
+        {
+          "id": 18,
+          "name": "Indoor",
+          "slug": "indoor",
+          "link": "https://tagouryshouse.com/product-category/indoor/"
+        },
+        {
+          "id": 240,
+          "name": "Letters",
+          "slug": "letters",
+          "link": "https://tagouryshouse.com/product-category/indoor/lighting/letters/"
+        },
+        {
+          "id": 90,
+          "name": "Lighting",
+          "slug": "lighting",
+          "link": "https://tagouryshouse.com/product-category/indoor/lighting/"
+        }
+      ],
+      "tags": [],
+      "brands": [],
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Color",
+          "taxonomy": "pa_color",
+          "has_variations": false,
+          "terms": [
+            {
+              "id": 16,
+              "name": "Brown",
+              "slug": "brown"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Material",
+          "taxonomy": "pa_material",
+          "has_variations": false,
+          "terms": [
+            {
+              "id": 50,
+              "name": "Metal",
+              "slug": "metal"
+            }
+          ]
+        }
+      ],
+      "variations": [],
+      "grouped_products": [],
+      "has_options": false,
+      "is_purchasable": true,
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "low_stock_remaining": null,
+      "stock_availability": {
+        "text": "16 in stock",
+        "class": "in-stock wd-style-default"
+      },
+      "sold_individually": false,
+      "weight": "",
+      "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+      },
+      "formatted_weight": "N/A",
+      "formatted_dimensions": "N/A",
+      "add_to_cart": {
+        "text": "OWN THIS PIECE",
+        "description": "Add to cart: &ldquo;Letter E Led Lights&rdquo;",
+        "url": "/wp-json/wc/store/v1/products?per_page=100&#038;page=1&#038;add-to-cart=5876",
+        "single_text": "OWN THIS PIECE",
+        "minimum": 1,
+        "maximum": 16,
+        "multiple_of": 1
+      },
+      "is_password_protected": false,
+      "extensions": {},
+      "_links": {
+        "self": [
+          {
+            "href": "https://tagouryshouse.com/wp-json/wc/store/v1/products/5876",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://tagouryshouse.com/wp-json/wc/store/v1/products"
+          }
+        ],
+        "related": [
+          {
+            "embeddable": true,
+            "href": "https://tagouryshouse.com/wp-json/wc/store/v1/products?related=5876&per_page=10"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5880,
+      "name": "letter I LED",
+      "slug": "letter-i-led",
+      "parent": 0,
+      "type": "simple",
+      "variation": "",
+      "permalink": "https://tagouryshouse.com/product/letter-i-led/",
+      "sku": "T-CH0607-I",
+      "short_description": "<p>24*11*5</p>",
+      "description": "<p>I-shaped metal frame filled with LED lights</p>",
+      "on_sale": false,
+      "prices": {
+        "price": "1765",
+        "regular_price": "1765",
+        "sale_price": "1765",
+        "price_range": null,
+        "currency_code": "EGP",
+        "currency_symbol": "EGP",
+        "currency_minor_unit": 0,
+        "currency_decimal_separator": ",",
+        "currency_thousand_separator": ",",
+        "currency_prefix": "",
+        "currency_suffix": " EGP"
+      },
+      "price_html": "<span class=\"woocommerce-Price-amount amount\">1,765&nbsp;<span class=\"woocommerce-Price-currencySymbol\">EGP</span></span> <small class=\"woocommerce-price-suffix\">incl. Vat</small>",
+      "average_rating": "0",
+      "review_count": 0,
+      "images": [
+        {
+          "id": 5881,
+          "src": "https://tagouryshouse.com/wp-content/uploads/2026/05/T-CH0607-I-1.jpg",
+          "thumbnail": "https://tagouryshouse.com/wp-content/uploads/2026/05/T-CH0607-I-1.jpg",
+          "srcset": "",
+          "sizes": "(max-width: 56px) 100vw, 56px",
+          "thumbnail_srcset": "",
+          "thumbnail_sizes": "(max-width: 56px) 100vw, 56px",
+          "name": "T-CH0607-I-1",
+          "alt": ""
+        }
+      ],
+      "categories": [
+        {
+          "id": 18,
+          "name": "Indoor",
+          "slug": "indoor",
+          "link": "https://tagouryshouse.com/product-category/indoor/"
+        },
+        {
+          "id": 240,
+          "name": "Letters",
+          "slug": "letters",
+          "link": "https://tagouryshouse.com/product-category/indoor/lighting/letters/"
+        },
+        {
+          "id": 90,
+          "name": "Lighting",
+          "slug": "lighting",
+          "link": "https://tagouryshouse.com/product-category/indoor/lighting/"
+        }
+      ],
+      "tags": [],
+      "brands": [],
+      "attributes": [
+        {
+          "id": 1,
+          "name": "Color",
+          "taxonomy": "pa_color",
+          "has_variations": false,
+          "terms": [
+            {
+              "id": 60,
+              "name": "White",
+              "slug": "white"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Material",
+          "taxonomy": "pa_material",
+          "has_variations": false,
+          "terms": [
+            {
+              "id": 50,
+              "name": "Metal",
+              "slug": "metal"
+            }
+          ]
+        }
+      ],
+      "variations": [],
+      "grouped_products": [],
+      "has_options": false,
+      "is_purchasable": true,
+      "is_in_stock": true,
+      "is_on_backorder": false,
+      "low_stock_remaining": null,
+      "stock_availability": {
+        "text": "14 in stock",
+        "class": "in-stock wd-style-default"
+      },
+      "sold_individually": false,
+      "weight": "",
+      "dimensions": {
+        "length": "",
+        "width": "",
+        "height": ""
+      },
+      "formatted_weight": "N/A",
+      "formatted_dimensions": "N/A",
+      "add_to_cart": {
+        "text": "OWN THIS PIECE",
+        "description": "Add to cart: &ldquo;letter I LED&rdquo;",
+        "url": "/wp-json/wc/store/v1/products?per_page=100&#038;page=1&#038;add-to-cart=5880",
+        "single_text": "OWN THIS PIECE",
+        "minimum": 1,
+        "maximum": 14,
+        "multiple_of": 1
+      },
+      "is_password_protected": false,
+      "extensions": {},
+      "_links": {
+        "self": [
+          {
+            "href": "https://tagouryshouse.com/wp-json/wc/store/v1/products/5880",
+            "targetHints": {
+              "allow": [
+                "GET"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://tagouryshouse.com/wp-json/wc/store/v1/products"
+          }
+        ],
+        "related": [
+          {
+            "embeddable": true,
+            "href": "https://tagouryshouse.com/wp-json/wc/store/v1/products?related=5880&per_page=10"
+          }
+        ]
+      }
+    }
+  ]
+}
