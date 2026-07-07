@@ -508,10 +508,13 @@ def quote(value: str) -> str:
 def image_filename(source_url: str, title: str, content_type: str) -> str:
 	parsed = urllib.parse.urlparse(source_url)
 	name = Path(urllib.parse.unquote(parsed.path)).name
-	if name and "." in name:
-		return name
 	extension = mimetypes.guess_extension(content_type.split(";")[0].strip()) or ".jpg"
-	slug = re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-") or "tagoury-item"
+	if name and "." in name:
+		stem = Path(name).stem
+		extension = Path(name).suffix or extension
+	else:
+		stem = title
+	slug = re.sub(r"[^a-z0-9]+", "-", stem.lower()).strip("-") or "tagoury-item"
 	return f"{slug}{extension}"
 
 
