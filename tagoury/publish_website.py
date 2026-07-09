@@ -28,7 +28,58 @@ MAIN_NAV = [
 	("Best Selling", "/shop?item_group=Best%20Selling"),
 	("Indoor", "/shop?item_group=Indoor"),
 	("Outdoor", "/shop?item_group=Outdoor"),
-	("Our Services", "/services"),
+	("Our Services", "#"),
+]
+
+MENU_CATEGORY_ORDER = {
+	"Indoor": [
+		"Accessories",
+		"Boxes",
+		"Candles and Lanterns",
+		"Chairs",
+		"Chest of drawers",
+		"Consoles",
+		"Lighting",
+		"Natural Wood",
+		"Ottomans and stools",
+		"Paravan",
+		"Pillows and Textiles",
+		"Rugs",
+		"Shelves",
+		"Sofas",
+		"Tables",
+		"Trolleys",
+		"Beds",
+		"Fans",
+		"Unique Desk",
+		"TV Units",
+		"Bars",
+		"Parquet",
+	],
+	"Outdoor": [
+		"Accessories",
+		"Candles and Lanterns",
+		"Chairs",
+		"Lighting",
+		"Natural Wood",
+		"Ottomans and stools",
+		"Pillows and Textiles",
+		"Sets",
+		"Sun Beds",
+		"Tables",
+		"Fans",
+		"Shading Solutions",
+		"Sofas",
+		"Rugs",
+		"Parquet",
+	],
+}
+
+SERVICE_NAV = [
+	("Feng Shui Service", "/services#feng-shui"),
+	("Boutique Hotel Service", "/services#boutique-hotel"),
+	("Hotel Furniture Services", "/services#hotel-furniture"),
+	("Linens Catalog", "/services#linens-catalog"),
 ]
 
 FOOTER_LINKS = [
@@ -61,7 +112,7 @@ def publish_all(limit: int | None = None) -> dict[str, Any]:
 	}
 
 	report["custom_fields_created"] = ensure_custom_fields()
-	ensure_item_groups_visible(group_names.values())
+	ensure_item_groups_visible(catalog["categories"], group_names)
 	ensure_item_prices(catalog["products"], report)
 
 	home_products = []
@@ -159,15 +210,20 @@ def ensure_custom_fields() -> int:
 	return created
 
 
-def ensure_item_groups_visible(group_names: Any) -> None:
+def ensure_item_groups_visible(
+	categories: list[dict[str, Any]],
+	group_names: dict[int, str],
+) -> None:
 	fields = meta_fields("Item Group")
-	for group_name in group_names:
+	parent_ids = {int(category.get("parent") or 0) for category in categories}
+	for category_id, group_name in group_names.items():
 		if not frappe.db.exists("Item Group", group_name):
 			continue
 		doc = frappe.get_doc("Item Group", group_name)
-		for field in ["show_in_website", "is_group"]:
-			if field in fields:
-				doc.set(field, 1)
+		if "show_in_website" in fields:
+			doc.set("show_in_website", 1)
+		if "is_group" in fields:
+			doc.set("is_group", 1 if category_id in parent_ids else 0)
 		doc.save(ignore_permissions=True)
 
 
@@ -360,7 +416,7 @@ def create_storefront_pages(
 	upsert_web_page("return-exchange-policy", "Return & Exchange Policy", policy_html(), report)
 	upsert_web_page("vip-projects", "VIP Projects", vip_projects_html(), report)
 	upsert_web_page("services", "Our Services", services_html(), report)
-	update_website_settings(report)
+	update_website_settings(catalog, report)
 
 
 def upsert_web_page(route: str, title: str, content: str, report: dict[str, Any]) -> None:
@@ -385,7 +441,7 @@ def upsert_web_page(route: str, title: str, content: str, report: dict[str, Any]
 		report["pages_created"] += 1
 
 
-def update_website_settings(report: dict[str, Any]) -> None:
+def update_website_settings(catalog: dict[str, Any], report: dict[str, Any]) -> None:
 	settings = frappe.get_single("Website Settings")
 	fields = meta_fields("Website Settings")
 	if "home_page" in fields:
@@ -394,13 +450,67 @@ def update_website_settings(report: dict[str, Any]) -> None:
 		settings.top_bar_items = []
 		child_field = settings.meta.get_field("top_bar_items")
 		child_fields = meta_fields(child_field.options) if child_field and child_field.options else set()
-		for label, url in MAIN_NAV:
-			row = {"label": label, "url": url, "right": 0}
+		for row in navbar_rows(catalog):
 			filtered_row = {field: value for field, value in row.items() if field in child_fields}
 			if filtered_row:
 				settings.append("top_bar_items", filtered_row)
 	settings.save(ignore_permissions=True)
 	report["settings_updated"] += 1
+
+
+def navbar_rows(catalog: dict[str, Any]) -> list[dict[str, Any]]:
+	"""Build navbar rows, including one-level Item Group dropdown entries."""
+	categories = {int(category["id"]): category for category in catalog["categories"]}
+	group_names = {
+		category_id: unique_group_name(category, categories)
+		for category_id, category in categories.items()
+	}
+	category_ids_by_name = {name: category_id for category_id, name in group_names.items()}
+	rows: list[dict[str, Any]] = []
+
+	for label, url in MAIN_NAV:
+		rows.append({"label": label, "url": url, "right": 0})
+		if label == "Our Services":
+			rows.extend(
+				{
+					"label": child_label,
+					"url": child_url,
+					"parent_label": label,
+					"right": 0,
+				}
+				for child_label, child_url in SERVICE_NAV
+			)
+			continue
+		parent_id = category_ids_by_name.get(label)
+		if parent_id is None:
+			continue
+		menu_order = {
+			name.casefold(): index
+			for index, name in enumerate(MENU_CATEGORY_ORDER.get(label, []))
+		}
+		children = sorted(
+			(
+				category
+				for category in categories.values()
+				if int(category.get("parent") or 0) == parent_id
+			),
+			key=lambda category: (
+				menu_order.get(clean_text(category["name"]).casefold(), len(menu_order)),
+				clean_text(category["name"]).casefold(),
+			),
+		)
+		for child in children:
+			child_label = group_names[int(child["id"])]
+			rows.append(
+				{
+					"label": clean_text(child["name"]),
+					"url": f"/shop?item_group={quote_query(child_label)}",
+					"parent_label": label,
+					"right": 0,
+				}
+			)
+
+	return rows
 
 
 def build_homepage_html(
@@ -583,10 +693,40 @@ def vip_projects_html() -> str:
 
 
 def services_html() -> str:
-	return simple_page_html(
-		"Our Services",
-		"Feng Shui Service, Boutique Hotel Service, Hotel Furniture Services and Linens Catalog support for selected projects.",
+	services = [
+		("feng-shui", "Feng Shui Service", "Interior planning focused on balance, flow and harmony."),
+		(
+			"boutique-hotel",
+			"Boutique Hotel Service",
+			"Distinctive furniture and styling solutions for boutique hospitality spaces.",
+		),
+		(
+			"hotel-furniture",
+			"Hotel Furniture Services",
+			"Furniture packages for guest rooms, public areas and hospitality projects.",
+		),
+		(
+			"linens-catalog",
+			"Linens Catalog",
+			"Curated linen options for selected residential and hospitality projects.",
+		),
+	]
+	sections = "\n".join(
+		f'<section id="{anchor}" class="th-section"><h2>{html.escape(title)}</h2>'
+		f"<p>{html.escape(description)}</p></section>"
+		for anchor, title, description in services
 	)
+	return f"""
+<style>{storefront_css()}</style>
+<div class="th-store">
+	<header class="th-hero" style="min-height: 46vh">
+		<div class="th-nav"><div class="th-brand">Tagoury's House</div><nav>{nav_links(MAIN_NAV)}</nav></div>
+		<div class="th-hero-content"><h1>Our Services</h1><p>Specialist support for refined residential and hospitality spaces.</p></div>
+	</header>
+	{sections}
+	{footer_html()}
+</div>
+"""
 
 
 def simple_page_html(title: str, text: str) -> str:

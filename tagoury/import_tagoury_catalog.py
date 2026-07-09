@@ -105,7 +105,7 @@ def import_to_erpnext(
 		children_by_parent[int(category.get("parent") or 0)].append(category)
 
 	group_names: dict[int, str] = {}
-	ensure_group(client, ROOT_ITEM_GROUP, "All Item Groups", report)
+	ensure_group(client, ROOT_ITEM_GROUP, "All Item Groups", report, is_group=True)
 
 	def sync_category(category: dict[str, Any]) -> str:
 		category_id = int(category["id"])
@@ -115,7 +115,14 @@ def import_to_erpnext(
 		parent_id = int(category.get("parent") or 0)
 		parent_group = ROOT_ITEM_GROUP if not parent_id else sync_category(categories[parent_id])
 		group_name = unique_group_name(category, categories)
-		ensure_group(client, group_name, parent_group, report, category)
+		ensure_group(
+			client,
+			group_name,
+			parent_group,
+			report,
+			category,
+			is_group=bool(children_by_parent.get(category_id)),
+		)
 		group_names[category_id] = group_name
 		return group_name
 
@@ -202,12 +209,13 @@ def ensure_group(
 	parent_group: str,
 	report: dict[str, Any],
 	category: dict[str, Any] | None = None,
+	is_group: bool = True,
 ) -> None:
 	doc = {
 		"doctype": "Item Group",
 		"item_group_name": group_name,
 		"parent_item_group": parent_group,
-		"is_group": 1,
+		"is_group": 1 if is_group else 0,
 	}
 	if category:
 		doc["show_in_website"] = 1
